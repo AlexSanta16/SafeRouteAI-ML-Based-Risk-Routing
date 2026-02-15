@@ -1,4 +1,4 @@
-# 🛡️ SafeRouteAI: Navigate Safer, Not Just Faster
+# SafeRouteAI: Navigate Safer, Not Just Faster
 
 
 ## 📖 Overview
@@ -10,7 +10,7 @@ SafeRouteAI is a full-stack project that helps users move around urban areas mor
 
 ---
 
-### 🚀 Key Features
+### Key Features
 * **Risk-Aware Routes:** Calculates walking or driving paths that avoid areas with higher predicted risk  
 * **Time-Sensitive Routing:** Routes adapt depending on the selected hour  
 * **Interactive Heatmaps:** Visualizes incident hotspots directly on the map  
@@ -19,7 +19,7 @@ SafeRouteAI is a full-stack project that helps users move around urban areas mor
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 * **Python & FastAPI** – REST API and route computation  
@@ -36,7 +36,7 @@ SafeRouteAI is a full-stack project that helps users move around urban areas mor
 
 ---
 
-## 🧠 How the Machine Learning Works
+## How the Machine Learning Works
 The core of SafeRouteAI is a **Random Forest Classifier** that predicts the risk level of each street segment.
 
 ### 1. Data Preparation
@@ -76,7 +76,7 @@ Shortest-path algorithms then compute the **safest possible route**, balancing s
 
 ---
 
-## 🗺️ Geospatial Mapping
+## Geospatial Mapping
 * The city is modeled as a **graph** using **OSMnx** and **NetworkX**  
 * **Dynamic Weights:** Street edges are weighted by both distance and predicted risk  
 * **Hotspot Visualization:** Incidents such as thefts, assaults, and other public safety events are displayed as heatmaps  
