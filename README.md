@@ -1,7 +1,7 @@
 # SafeRouteAI: Navigate Safer, Not Just Faster
 
 
-## 📖 Overview
+## Overview
 SafeRouteAI is a full-stack project that helps users move around urban areas more safely. Unlike traditional GPS applications that focus only on speed, this system adds a **risk-aware layer** to route planning. It uses over **259,000 historical incidents** from Chicago to identify risky zones and dynamically adjusts routes based on the time of day. The result is safer routes that remain convenient and avoid unnecessary detours.
 
 ---
